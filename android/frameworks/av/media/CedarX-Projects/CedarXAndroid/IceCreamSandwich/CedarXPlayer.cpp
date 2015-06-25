@@ -15,6 +15,7 @@
  */
 //#define LOG_NDEBUG 0
 #include <CDX_LogNDebug.h>
+#define __CHIP_VERSION_F51
 #define LOG_TAG "CedarXPlayer"
 #include <CDX_Debug.h>
 

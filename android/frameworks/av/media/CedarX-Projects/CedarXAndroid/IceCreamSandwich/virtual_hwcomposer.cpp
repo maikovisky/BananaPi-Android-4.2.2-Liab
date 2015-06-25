@@ -19,6 +19,7 @@
 #include <binder/MemoryHeapBase.h>
 #include <hardware/hwcomposer.h>
 #include "virtual_hwcomposer.h"
+#define __CHIP_VERSION_F51
 
 //#if (CEDARX_ANDROID_VERSION == 6)
 //#elif (CEDARX_ANDROID_VERSION == 7)

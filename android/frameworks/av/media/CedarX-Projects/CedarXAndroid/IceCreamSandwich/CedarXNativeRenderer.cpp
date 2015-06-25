@@ -15,6 +15,7 @@
  */
 
 #define LOG_TAG "CedarXNativeRenderer"
+#define __CHIP_VERSION_F51
 #include <CDX_Debug.h>
 
 #include "CedarXNativeRenderer.h"

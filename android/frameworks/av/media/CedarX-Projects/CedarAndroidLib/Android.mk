@@ -7,5 +7,6 @@ ifeq ($(CEDARX_ANDROID_VERSION),4)
 include $(LOCAL_PATH)/LIB_F23/Android.mk
 else
 include $(LOCAL_PATH)/LIB_$(CEDARX_ANDROID_CODE)_$(CEDARX_CHIP_VERSION)/Android.mk
+#include $(LOCAL_PATH)/LIB_$(CEDARX_ANDROID_CODE)_F51/Android.mk
 endif
 endif

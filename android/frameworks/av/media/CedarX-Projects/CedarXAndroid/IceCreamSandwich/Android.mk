@@ -4,6 +4,8 @@ include $(CLEAR_VARS)
 #include frameworks/${AV_BASE_PATH}/media/libstagefright/codecs/common/Config.mk
 include $(LOCAL_PATH)/../../Config.mk
 
+CEDARX_CHIP_VERSION:=F51
+
 LOCAL_SRC_FILES:=                         \
 		CedarXAudioPlayer.cpp			  \
         CedarXMetadataRetriever.cpp		  \
